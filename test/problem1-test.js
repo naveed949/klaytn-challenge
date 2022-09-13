@@ -1,5 +1,7 @@
 const { expect  } = require('chai')
 const Problem1 = require('../src/problem1')
+describe("Problem#1", function (){
+
 describe('Array of multiples 3 || 5', function () {
     it('Array should have values < 1000', function () {
         let {arr} = Problem1.computeArray();
@@ -33,5 +35,5 @@ describe('Sum of array', function (){
         } )
         expect(sum).to.equal(result2);
     });
-
+  })
 })

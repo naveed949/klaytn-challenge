@@ -7,12 +7,12 @@
  */
 module.exports = {
      computePrime:() => {
-         let arr = [2];
-         let num = 2; // 0, 1 are not prime number thus skipped them
+         let arr = [2]; // 2 is only even prime number thus adding it here explicitly.
+         let num = 2; // 0, 1 are not prime numbers thus skipped them
 
          while(arr.length < 10001){
              num +=1;
-            if (num % 2 !== 0){
+            if (num % 2 !== 0){ // no prime can be an even number except 2
                 for (let i = 0; i < arr.length; i++) {
                     if (num % arr[i] === 0){ // a prime number shouldn't be divisible of other primes
                         break;

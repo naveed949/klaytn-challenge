@@ -1,5 +1,8 @@
 const { expect  } = require('chai')
 const Problem2 = require('../src/problem2')
+
+describe("Problem#2", function (){
+
 describe('Prime Numbers', function () {
     it('Primes array should have length 10001', function () {
         let {arr} = Problem2.computePrime();
@@ -25,5 +28,5 @@ describe('10001st Prime', function (){
         let {arr} = Problem2.computePrime();
         expect(arr[10000]).to.equal(104743);
     });
-
+ })
 })
