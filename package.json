@@ -1,0 +1,17 @@
+{
+  "name": "klaytn-challenge",
+  "version": "1.0.0",
+  "description": "this is a challenge task to show my skills following TDD approach",
+  "main": "index.js",
+  "repository": "https://github.com/naveed949/klaytn-challenge.git",
+  "author": "naveed949 <naveediqbal949@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
